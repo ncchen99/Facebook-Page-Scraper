@@ -17,6 +17,8 @@
 - 🛡️ **強化錯誤處理** - 先進的彈窗關閉機制，提高爬取穩定性
 - ⚡ **防偵測機制** - 內建多種反偵測技術，提高爬取成功率
 
+![alt text](docs/image.png)
+
 ## 系統需求
 
 - Python 3.7 或更高版本
@@ -28,7 +30,7 @@
 ### 📚 詳細安裝指南
 
 **🚀 首次使用？請先閱讀我們的詳細設置指南：**
-- **[📋 詳細設置指南 (DETAILED_SETUP_GUIDE.md)](./DETAILED_SETUP_GUIDE.md)** 
+- **[📋 詳細設置指南 (DETAILED_SETUP_GUIDE.md)](./docs/DETAILED_SETUP_GUIDE.md)** 
   - 從 Python 安裝開始的完整流程
   - **特別包含 macOS 版本的詳細設置**
   - Windows、macOS、Linux 三平台支援
@@ -104,27 +106,6 @@ python facebook_scraper_gui.py
    - 爬取完成後，點擊「儲存結果」按鈕
    - 選擇儲存位置和檔案名稱
    - 結果將以 CSV 格式儲存
-
-### 測試「查看更多」優化功能 🧪
-
-專門的測試腳本用於驗證新的智慧滾動和按鈕處理功能：
-
-#### Windows:
-```cmd
-python test_see_more_optimization.py
-```
-
-#### macOS:
-```bash
-python3 test_see_more_optimization.py
-```
-
-**測試腳本特色：**
-- 🧪 專門測試「查看更多」按鈕處理效果
-- 📊 提供詳細的內容完整性分析  
-- 📈 統計長貼文比例和平均內容長度
-- 💡 給出優化建議和評估結果
-- ⏱️ 顯示處理速度和效率統計
 
 ### 程式化使用（進階用戶）
 

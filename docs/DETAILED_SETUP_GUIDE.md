@@ -311,19 +311,6 @@ python example_usage.py  # Windows
 python3 example_usage.py  # macOS
 ```
 
-### 4. 快速啟動腳本
-
-#### Windows:
-```cmd
-python start_gui.py
-```
-
-#### macOS:
-```bash
-python3 start_gui.py
-```
-
----
 
 ## 🛠️ 常見問題排除
 
